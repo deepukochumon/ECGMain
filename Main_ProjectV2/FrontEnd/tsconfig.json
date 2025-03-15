@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowJs": true,       // Enables importing JavaScript files
+    "checkJs": false,      // Prevents TypeScript from type-checking JS files
+    "jsx": "react",        // If you're using React
+    "module": "esnext",    // Adjust based on your module system (e.g., CommonJS, ESNext)
+    "moduleResolution": "node",
+    "target": "esnext",    // Target ECMAScript version
+    "strict": true,        // Enables strict type checking
+    "esModuleInterop": true, // Ensures compatibility with CommonJS modules
+    "skipLibCheck": true,  // Skips type checking for libraries
+    "resolveJsonModule": true // Allows importing JSON files
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
